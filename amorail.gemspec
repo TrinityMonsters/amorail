@@ -28,7 +28,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rubocop", "~> 0.49"
   spec.add_dependency "anyway_config", ">= 1.0"
   spec.add_dependency "faraday", '>= 2', '< 3'
-  spec.add_dependency "faraday_middleware", '>= 1.0', '< 2'
   spec.add_dependency "activemodel"
   spec.add_dependency "json"
   spec.add_dependency "redis"
