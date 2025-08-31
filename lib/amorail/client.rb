@@ -37,7 +37,7 @@ module Amorail
 
       @connect = Faraday.new(url: api_endpoint) do |faraday|
         faraday.response :json, content_type: /\bjson$/
-        faraday.use :instrumentation
+        faraday.request :instrumentation
         faraday.adapter Faraday.default_adapter
       end
     end
